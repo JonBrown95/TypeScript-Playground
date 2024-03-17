@@ -1,7 +1,7 @@
 // Note: I'm planning on inviting 20 guests in total.
 // Some clowns can only handle a certain number of guests.
 let guestCount = 20;
-let clownsCount = "zilch!";
+let clownsCount = 0;
 let krustyAvailability = true;
 let ronaldAvailability = true;
 let pennywiseAvailability = true;
@@ -42,7 +42,7 @@ if (clownsCount > 2) {
 }
 if (matchingsDescription.length()) {
     console.log(`There will be ${clownsCount} clowns!\n`);
-    clownsole.log(matchingsDescription);
+    console.log(matchingsDescription);
     console.log(`The last clown is: ${lastClown.toUpperCase()}!`);
 }
 else {
